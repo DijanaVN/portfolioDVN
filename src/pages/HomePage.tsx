@@ -3,14 +3,21 @@ import Aside from "../components/Aside";
 import Footer from "../components/Footer";
 import Main from "../components/Main";
 import NavBar from "../components/NavBar";
+import img from "../assets/images/tim-mossholder-_YwD-QZMW8c-unsplash.jpg";
 
 const HomePage = () => {
+  const backgroundStyle = {
+    backgroundImage: `url(${img})`,
+    backgroundSize: "cover",
+    minHeight: "100vh",
+  };
   return (
-    <div className="container">
-      <NavBar />
-      <div className="container-fluid mt-4">
-        <div className="row">
-          <Aside />
+    <div className="container-fluid" style={backgroundStyle}>
+      <div>
+        <NavBar />
+      </div>
+      <div className="container-fluid ">
+        <div className="row  ">
           <Main />
         </div>
       </div>

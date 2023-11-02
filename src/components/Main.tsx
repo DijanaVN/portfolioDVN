@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/images/704caf0c-b7ad-4d26-8886-b703834efcf6 (1).webp";
+import img from "../assets/images/dijanavn (1).webp";
 import Reveal from "./Reveal";
 
 const Main = () => {
@@ -42,12 +42,15 @@ const Main = () => {
             </Reveal>
           </div>
         </div>
+
         <div className="col-md-6 d-flex align-items-center  justify-content-center border-bottom">
-          <img
-            src={img}
-            alt="image of Dijana Veljanoska Nikoloska"
-            className="img-fluid imgopacity "
-          />
+          <Reveal>
+            <img
+              src={img}
+              alt="image of Dijana Veljanoska Nikoloska"
+              className="img-fluid imgopacity "
+            />
+          </Reveal>
         </div>
       </div>
     </div>

@@ -11,12 +11,12 @@ const Reveal = ({ children, width = "fit-content" }: Props) => {
     <div style={{ position: "relative", width, overflow: "hidden" }}>
       <motion.div
         variants={{
-          hidden: { opacity: 0, y: 3000 },
+          hidden: { opacity: 0, y: 75 },
           visible: { opacity: 1, y: 0 },
         }}
         initial="hidden"
         animate="visible"
-        transition={{ dur: 0.5, delay: 0.25 }}
+        transition={{ dur: 1, delay: 0.5 }}
       >
         {children}
       </motion.div>

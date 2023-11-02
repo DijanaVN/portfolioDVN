@@ -1,0 +1,10 @@
+.fonts {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.fonts2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bottom-border {
+  border-bottom: 4px solid;
+}

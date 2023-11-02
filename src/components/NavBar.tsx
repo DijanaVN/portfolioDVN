@@ -28,7 +28,7 @@ const NavBar = () => {
           className="collapse navbar-collapse nav justify-content-end "
           id="navbarNav"
         >
-          <ul className="navbar-nav fs-3 text-white pe-5">
+          <ul className="navbar-nav fs-3 text-white pe-5 fonts2">
             <li className="nav-item pe-5">
               <a className="nav-link " aria-current="page" href="#">
                 About

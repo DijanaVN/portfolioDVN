@@ -4,7 +4,12 @@ interface Props {
 }
 
 export const Hover = ({ children }: Props) => (
-  <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+  <motion.div
+    whileHover={{ scale: 1.2 }}
+    whileTap={{ scale: 1.1 }}
+    drag="x"
+    dragConstraints={{ left: -100, right: 100 }}
+  >
     {children}
   </motion.div>
 );

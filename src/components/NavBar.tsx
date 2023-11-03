@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import img from "../assets/images/logo dvn.webp";
 import { motion } from "framer-motion";
-import { Hover } from "./Hover";
+import { Hover } from "./HoverMotion";
 import { Navbar, Nav } from "react-bootstrap";
 
 const NavBar = () => {

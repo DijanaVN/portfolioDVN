@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import img from "../assets/images/dijanavn (1).webp";
-import Reveal from "./Reveal";
+import Reveal from "./RevealMotion";
 import { motion } from "framer-motion";
+import { TypingAnimation } from "./TypingMotion";
 
 const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
 const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 30px)`;
@@ -14,12 +15,12 @@ const Main = () => {
       <div className="row">
         <div className="col-md-6 d-flex align-items-center ps-5 justify-content-center">
           <div className="pt-5 text-white fonts ">
-            <Reveal>
-              <p className="mt-4 border-bottom ">
-                Hello there! 👋 My name is <i>Dijana</i>, and I am an
-                enthusiastic <i>React JS developer</i>.
-              </p>
-            </Reveal>
+            <TypingAnimation
+              text={
+                " Hello there! My name is Dijana, and I am an enthusiastic React JS developer."
+              }
+            ></TypingAnimation>
+
             <Reveal>
               <p className="mt-4 border-bottom ">
                 Although I am at the beginning of my journey into the React

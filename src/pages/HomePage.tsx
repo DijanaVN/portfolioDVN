@@ -17,7 +17,7 @@ const HomePage = () => {
         <NavBar />
       </div>
       <div className="container-fluid ">
-        <div className="row  ">
+        <div className="row ">
           <Main />
         </div>
         <About />

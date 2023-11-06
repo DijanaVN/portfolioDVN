@@ -1,4 +1,8 @@
 import Reveal from "./RevealMotion";
+import { TbBrandJavascript } from "react-icons/tb";
+import { BiLogoTypescript, BiLogoCss3 } from "react-icons/bi";
+import { FaReact } from "react-icons/fa";
+import { AiFillGithub, AiOutlineHtml5 } from "react-icons/ai";
 
 const About = () => {
   const backgroundColor = { backgroundColor: "#D1C4E9", opacity: 0.7 };
@@ -11,9 +15,11 @@ const About = () => {
             <h6 className="card-text text-center mt-3 mb-3">
               Hello! 👋 I'm Dijana, a passionate beginner React developer with a
               strong commitment in web technologies. I hold certificates in HTML
-              🌐, CSS 🎨, JavaScript 📜, React ⚛️, TypeScript, and Git 🐙,
-              showcasing my dedication to learning and mastering the essentials
-              of web development.
+              <AiOutlineHtml5 />
+              , CSS <BiLogoCss3 />, JavaScript <TbBrandJavascript />, React{" "}
+              <FaReact />, TypeScript <BiLogoTypescript />, and GitHub{" "}
+              <AiFillGithub /> , showcasing my dedication to learning and
+              mastering the essentials of web development.
             </h6>
           </Reveal>
           <a href="#" className="card-link ">

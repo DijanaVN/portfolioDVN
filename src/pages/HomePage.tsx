@@ -4,6 +4,7 @@ import Main from "../components/Main";
 import NavBar from "../components/NavBar";
 import img from "../assets/images/tim-mossholder-_YwD-QZMW8c-unsplash.jpg";
 import About from "../components/About";
+import ScrollToTopButton from "./../components/ScrollToTheTopButton";
 
 const HomePage = () => {
   const backgroundStyle = {
@@ -18,6 +19,7 @@ const HomePage = () => {
       </div>
       <Main />
       <About />
+      <ScrollToTopButton />
     </div>
   );
 };

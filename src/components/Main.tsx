@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import img2 from "../assets/images/9a34d902-52a7-46e9-af0b-a8dd40868a88.jpg";
 import { TypingAnimation } from "./TypingMotion";
 import { GrLinkedin } from "react-icons/gr";
 import { BsGithub } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
-import { Link } from "react-router-dom";
 
 const Main = () => {
   const mainStyle = {

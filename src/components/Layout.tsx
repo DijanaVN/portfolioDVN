@@ -15,7 +15,9 @@ const Layout = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
+      <div className="bg-primary sticky-bottom">
+        <Footer />
+      </div>
     </>
   );
 };

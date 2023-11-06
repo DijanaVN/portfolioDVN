@@ -10,9 +10,7 @@ const AboutPage = () => {
   };
   return (
     <div className="container-fluid p-5" style={backgroundStyle}>
-      <div>
-        <About />
-      </div>
+      <About />
     </div>
   );
 };

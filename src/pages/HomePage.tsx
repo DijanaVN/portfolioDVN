@@ -16,13 +16,8 @@ const HomePage = () => {
       <div>
         <NavBar />
       </div>
-      <div className="container-fluid ">
-        <div className="row ">
-          <Main />
-        </div>
-        <About />
-      </div>
-      <Footer />
+      <Main />
+      <About />
     </div>
   );
 };

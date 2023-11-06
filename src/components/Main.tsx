@@ -8,7 +8,7 @@ const Main = () => {
     height: "100vh",
     display: "flex",
     alignItems: "center",
-    margin: "6vw 0",
+    margin: "5vw 0",
     opacity: 0.7,
   };
 

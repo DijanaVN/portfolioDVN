@@ -6,14 +6,14 @@ const About = () => {
     <div className="container-fluid p-5 ">
       <div className="card m-5" style={backgroundColor}>
         <div className="card-body">
-          <h3 className="card-title">About Me:</h3>
+          <h2 className="card-title">About Me:</h2>
           <Reveal>
             <h6 className="card-text text-center mt-3 mb-3">
               Hello! 👋 I'm Dijana, a passionate beginner React developer with a
-              strong commitment in web technologies. I hold certificates in
-              HTML, CSS, JavaScript, React, TypeScript, and Git, showcasing my
-              dedication to learning and mastering the essentials of web
-              development.
+              strong commitment in web technologies. I hold certificates in HTML
+              🌐, CSS 🎨, JavaScript 📜, React ⚛️, TypeScript, and Git 🐙,
+              showcasing my dedication to learning and mastering the essentials
+              of web development.
             </h6>
           </Reveal>
           <a href="#" className="card-link ">
@@ -40,7 +40,7 @@ const About = () => {
       </div>{" "}
       <div className="card m-5" style={backgroundColor}>
         <div className="card-body">
-          <h3 className="card-title">Career Shift:</h3>
+          <h2 className="card-title">Career Shift:</h2>
           <Reveal>
             <h6 className="card-text text-center mt-3 mb-3">
               Driven by my enthusiasm for technology and problem-solving, I
@@ -58,7 +58,7 @@ const About = () => {
       </div>{" "}
       <div className="card m-5" style={backgroundColor}>
         <div className="card-body">
-          <h3 className="card-title">What I Offer:</h3>
+          <h2 className="card-title">What I Offer:</h2>
           <ul className="fw-semibold">
             <Reveal>
               <li>
@@ -86,7 +86,7 @@ const About = () => {
       </div>{" "}
       <div className="card m-5" style={backgroundColor}>
         <div className="card-body">
-          <h3 className="card-title">What I'm Looking For:</h3>
+          <h2 className="card-title">What I'm Looking For:</h2>
           <Reveal>
             <h6 className="card-text text-center mt-3 mb-3">
               I am actively seeking a company environment that will provide me
@@ -100,7 +100,7 @@ const About = () => {
       </div>{" "}
       <div className="card m-5" style={backgroundColor}>
         <div className="card-body">
-          <h3 className="card-title">Let's Connect:</h3>
+          <h2 className="card-title">Let's Connect:</h2>
           <Reveal>
             <h6 className="card-text text-center mt-3 mb-3">
               I am open to new challenges and eager to make a meaningful impact.

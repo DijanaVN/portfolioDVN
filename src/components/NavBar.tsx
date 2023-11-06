@@ -3,6 +3,7 @@ import img from "../assets/images/logo dvn.webp";
 import { motion } from "framer-motion";
 import { Hover } from "./HoverMotion";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -22,12 +23,14 @@ const NavBar = () => {
         className="navbar-brand"
         href="#"
       >
-        <img
-          src={img}
-          className="bd-placeholder-img object-fit-cover border rounded"
-          alt="Logo DijanaVN"
-          height="75"
-        />
+        <Link to={"/"}>
+          <img
+            src={img}
+            className="bd-placeholder-img object-fit-cover border rounded"
+            alt="Logo DijanaVN"
+            height="75"
+          />
+        </Link>
       </motion.a>{" "}
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse
@@ -38,9 +41,9 @@ const NavBar = () => {
           <ul className="navbar-nav fs-3 text-white pe-5 fonts2">
             <li className="nav-item pe-5">
               <Hover>
-                <a className="nav-link " aria-current="page" href="#">
+                <Link to={"/about"} className="nav-link " aria-current="page">
                   About
-                </a>
+                </Link>
               </Hover>
             </li>
             <li className="nav-item pe-5">

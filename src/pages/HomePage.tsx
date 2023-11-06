@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Main from "../components/Main";
 import NavBar from "../components/NavBar";
 import img from "../assets/images/tim-mossholder-_YwD-QZMW8c-unsplash.jpg";
-import About from "./About";
+import About from "../components/About";
 
 const HomePage = () => {
   const backgroundStyle = {

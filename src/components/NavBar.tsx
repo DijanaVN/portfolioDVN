@@ -8,7 +8,7 @@ const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
   return (
     <Navbar
-      className="navbar fixed-top opacity-75 pe-5 ps-5"
+      className="navbar fixed-top pe-5 ps-5"
       expand="md"
       bg="dark"
       variant="dark"

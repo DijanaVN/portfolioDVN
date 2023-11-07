@@ -11,7 +11,7 @@ const Main = () => {
     height: "100vh",
     display: "flex",
     alignItems: "center",
-    margin: "5vw 0",
+    margin: "3vw 0",
     opacity: 0.7,
   };
   const iconStyle = {
@@ -20,7 +20,7 @@ const Main = () => {
   };
 
   return (
-    <div className="container-fluid" style={mainStyle}>
+    <div className="container-fluid " style={mainStyle}>
       <div>
         <div style={iconStyle}>
           <a
@@ -47,7 +47,7 @@ const Main = () => {
         </div>
       </div>
       <div
-        className="col-md-6 text-white fonts ms-5
+        className="col-md-6 text-white fonts ms-5 fs-4 lh-lg
       "
       >
         <TypingAnimation

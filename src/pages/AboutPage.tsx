@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/images/tim-mossholder-_YwD-QZMW8c-unsplash.jpg";
+import img from "../assets/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg";
 import About from "./../components/About";
 import ScrollToTopButton from "./../components/ScrollToTheTopButton";
 
@@ -10,7 +10,7 @@ const AboutPage = () => {
     minHeight: "100vh",
   };
   return (
-    <div className="container-fluid p-5" style={backgroundStyle}>
+    <div className="container-fluid p-md-5 " style={backgroundStyle}>
       <About />
       <ScrollToTopButton />
     </div>

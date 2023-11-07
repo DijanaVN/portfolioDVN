@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Main from "../components/Main";
 import NavBar from "../components/NavBar";
 import img from "../assets/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg";
@@ -6,9 +6,17 @@ import About from "../components/About";
 import ScrollToTopButton from "./../components/ScrollToTheTopButton";
 import Projects from "./../components/Projects";
 import { TypingAnimation } from "./../components/TypingMotion";
-import { motion } from "framer-motion";
+import useInViewport from "../hooks/useInViewport";
 
 const HomePage = () => {
+  const aboutRef = useRef(null);
+  const projectsRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const inViewportAbout = useInViewport(aboutRef);
+  const inViewportProjects = useInViewport(projectsRef);
+  const inViewportContact = useInViewport(contactRef);
+
   const backgroundStyle = {
     backgroundImage: `url(${img})`,
     backgroundSize: "cover",
@@ -23,27 +31,24 @@ const HomePage = () => {
         <NavBar />
       </div>
       <Main />
-      <div
-        className=" text-center text-white fonts  fs-1 lh-lg
-      "
-      >
-        <TypingAnimation text={" ABOUT SECTION"}></TypingAnimation>
+      <div className="text-center text-white fonts fs-1 lh-lg" ref={aboutRef}>
+        {inViewportAbout && <TypingAnimation text={" ABOUT SECTION"} />}
       </div>
       <About />
       <div
-        className=" text-center text-white fonts  fs-1 lh-lg
-      "
+        className="text-center text-white fonts fs-1 lh-lg"
+        ref={projectsRef}
       >
-        <TypingAnimation text={" PROJECTS"}></TypingAnimation>
+        {inViewportProjects && <TypingAnimation text={" PROJECTS"} />}
       </div>
       <div className="m-3">
         <Projects />
       </div>
       <div
-        className=" text-center text-white fonts ms-5 fs-1 lh-lg
-      "
+        className="text-center text-white fonts ms-5 fs-1 lh-lg"
+        ref={contactRef}
       >
-        <TypingAnimation text={" CONTACT"}></TypingAnimation>
+        {inViewportContact && <TypingAnimation text={" CONTACT"} />}
       </div>
       <ScrollToTopButton />
     </div>

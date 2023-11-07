@@ -48,9 +48,9 @@ const NavBar = () => {
             </li>
             <li className="nav-item pe-5">
               <Hover>
-                <a className="nav-link" href="#">
+                <Link to={"/projects"} className="nav-link">
                   Projects
-                </a>
+                </Link>
               </Hover>
             </li>
             <li className="nav-item">

@@ -7,7 +7,11 @@ const Projects = () => {
   return (
     <div className="row row-cols-1 row-cols-md-2 g-4">
       <div className="col mb-4">
-        <div className="card h-100 text-bg-warning opacity-75 m-lg-5">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="3000"
+          className="card h-100 text-bg-warning opacity-75 m-lg-5"
+        >
           <img
             src={img}
             className="card-img-top  h-50 object-fit-cover"
@@ -42,7 +46,11 @@ const Projects = () => {
         </div>
       </div>
       <div className="col mb-4">
-        <div className="card h-100 text-bg-warning m-lg-5">
+        <div
+          data-aos="flip-left"
+          data-aos-duration="3000"
+          className="card h-100 text-bg-warning m-lg-5"
+        >
           <img
             src={img1}
             className="card-img-top  h-50 object-fit-cover"
@@ -82,7 +90,11 @@ const Projects = () => {
         </div>
       </div>{" "}
       <div className="col mb-4">
-        <div className="card h-100 text-bg-warning m-lg-5">
+        <div
+          data-aos="flip-right"
+          data-aos-duration="3000"
+          className="card h-100 text-bg-warning m-lg-5"
+        >
           <img
             src={img2}
             className="card-img-top  h-50 object-fit-cover"
@@ -115,7 +127,11 @@ const Projects = () => {
         </div>
       </div>
       <div className="col mb-4">
-        <div className="card h-100 text-bg-warning m-lg-5">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="3000"
+          className="card h-100 text-bg-warning m-lg-5"
+        >
           <img
             src={img3}
             className="card-img-top  h-50 object-fit-cover"

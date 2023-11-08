@@ -3,8 +3,7 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { BiLogoTypescript, BiLogoCss3 } from "react-icons/bi";
 import { FaReact } from "react-icons/fa";
 import { AiFillGithub, AiOutlineHtml5 } from "react-icons/ai";
-import { useEffect, useRef } from "react";
-import useInViewport from "../hooks/useInViewport";
+import { useEffect } from "react";
 
 const About = () => {
   useEffect(() => {

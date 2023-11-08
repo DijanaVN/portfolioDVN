@@ -22,7 +22,12 @@ const Footer = () => {
       </div>
       <p className="mb-0">&copy; 2023 DijanaVN. All Rights Reserved.</p>
       <div className="d-flex align-items-center">
-        <div style={iconStyle}>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="1000"
+          style={iconStyle}
+        >
           <a
             href="https://github.com/DijanaVN?tab=repositories"
             target="_blank"
@@ -31,7 +36,12 @@ const Footer = () => {
             <BsGithub color="yellow" />
           </a>
         </div>
-        <div style={iconStyle}>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="2000"
+          style={iconStyle}
+        >
           <a
             href="https://www.linkedin.com/in/dijana-veljanoska-nikoloska-05679487/"
             target="_blank"
@@ -40,7 +50,12 @@ const Footer = () => {
             <GrLinkedin color="yellow" />
           </a>
         </div>
-        <div style={iconStyle}>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="3000"
+          style={iconStyle}
+        >
           <a href="mailto:veljanovskadijana@yahoo.com">
             <IoMdMail color="yellow" />
           </a>

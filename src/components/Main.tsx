@@ -22,7 +22,11 @@ const Main = () => {
   return (
     <div className="container-fluid " style={mainStyle}>
       <div>
-        <div style={iconStyle}>
+        <div
+          data-aos="zoom-in-right"
+          data-aos-duration="3000"
+          style={iconStyle}
+        >
           <a
             href="https://github.com/DijanaVN?tab=repositories"
             target="_blank"
@@ -31,7 +35,11 @@ const Main = () => {
             <BsGithub color="yellow" />
           </a>
         </div>
-        <div style={iconStyle}>
+        <div
+          data-aos="zoom-in-right"
+          data-aos-duration="2000"
+          style={iconStyle}
+        >
           <a
             href="https://www.linkedin.com/in/dijana-veljanoska-nikoloska-05679487/"
             target="_blank"
@@ -40,7 +48,11 @@ const Main = () => {
             <GrLinkedin color="yellow" />
           </a>
         </div>
-        <div style={iconStyle}>
+        <div
+          data-aos="zoom-in-right"
+          data-aos-duration="1000"
+          style={iconStyle}
+        >
           <a href="mailto:veljanovskadijana@yahoo.com">
             <IoMdMail color="yellow" />
           </a>

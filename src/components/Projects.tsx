@@ -5,7 +5,7 @@ import img3 from "../assets/images/Moshify.webp";
 
 const Projects = () => {
   return (
-    <div className="row row-cols-1 row-cols-md-2 g-4">
+    <div className="row row-cols-1 row-cols-md-2 g-4 ">
       <div className="col mb-4">
         <div
           data-aos="zoom-in"
@@ -26,7 +26,7 @@ const Projects = () => {
               Through this course, I gained a deep understanding of React and
               Typescript.
             </p>
-            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5">
+            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts ">
               <a
                 href="https://game-egeyzvvti-dijanavn.vercel.app/"
                 className="btn btn-danger"
@@ -70,17 +70,17 @@ const Projects = () => {
               motivated me to explore React libraries further, and my next goal
               is to learn Next.js."
             </p>
-            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5">
+            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
               <a
                 href="https://shop-shopping-site-uop84c985-dijanavn.vercel.app/"
-                className="btn btn-success "
+                className="btn btn-info "
                 target="_blank"
               >
                 Shop-Shopping-Site
               </a>
               <a
                 href="https://github.com/DijanaVN/shop-shopping-site"
-                className="btn btn-success "
+                className="btn btn-info "
                 target="_blank"
               >
                 GitHub-Link
@@ -111,15 +111,15 @@ const Projects = () => {
               Vercel. I integrated the Edamam Recipe API to enhance its
               functionality.
             </p>
-            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5">
+            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
               <a
                 href="https://delishes-recipes-page-50ho7xkub-dijanavn.vercel.app/"
-                className="btn btn-info"
+                className="btn btn-success"
                 target="_blank"
               >
                 Delishes-Recipes-Site
               </a>
-              <a href="#" className="btn btn-info" target="_blank">
+              <a href="#" className="btn btn-success" target="_blank">
                 GitHub-Link
               </a>
             </div>
@@ -146,7 +146,7 @@ const Projects = () => {
               CSS, gained through Mosh's comprehensive lessons and hands-on
               projects."
             </p>{" "}
-            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5">
+            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
               <a
                 href="https://chipper-medovik-3c1af1.netlify.app/"
                 className="btn btn-light"

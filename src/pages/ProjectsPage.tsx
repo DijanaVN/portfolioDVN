@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import img from "../assets/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg";
 import Projects from "./../components/Projects";
 import ScrollToTopButton from "./../components/ScrollToTheTopButton";
 
 const ProjectsPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const backgroundStyle = {
     backgroundImage: `url(${img})`,
     backgroundSize: "cover",

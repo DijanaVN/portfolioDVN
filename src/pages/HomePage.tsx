@@ -7,6 +7,7 @@ import ScrollToTopButton from "./../components/ScrollToTheTopButton";
 import Projects from "./../components/Projects";
 import { TypingAnimation } from "./../components/TypingMotion";
 import useInViewport from "../hooks/useInViewport";
+import Contact from "../components/Contact";
 
 const HomePage = () => {
   const aboutRef = useRef(null);
@@ -24,7 +25,7 @@ const HomePage = () => {
   };
   return (
     <div
-      className="container-fluid p-0  ms-0 me-0 mt-2 mb-2"
+      className="container-fluid p-0  ms-0 me-0 mt-2 "
       style={backgroundStyle}
     >
       <div>
@@ -44,12 +45,15 @@ const HomePage = () => {
       <div className="m-3">
         <Projects />
       </div>
+
       <div
-        className="text-center text-white fonts ms-5 fs-1 lh-lg"
+        className="text-center text-white fonts mt-5 ms-5 fs-1 lh-lg pt-5"
         ref={contactRef}
       >
-        {inViewportContact && <TypingAnimation text={" CONTACT"} />}
+        {inViewportContact && <TypingAnimation text={" CONTACT ME"} />}
       </div>
+      <Contact />
+
       <ScrollToTopButton />
     </div>
   );

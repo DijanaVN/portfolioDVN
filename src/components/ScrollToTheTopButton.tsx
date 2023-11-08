@@ -26,6 +26,8 @@ const ScrollToTopButton = () => {
     <>
       {showBackToTop && (
         <button
+          data-aos="fade-up"
+          data-aos-duration="2000"
           className="btn btn-light rounded-circle"
           style={{
             position: "fixed",

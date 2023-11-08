@@ -56,9 +56,9 @@ const NavBar = () => {
             <li className="nav-item">
               {" "}
               <Hover>
-                <a className="nav-link" href="#">
+                <Link to={"/contact"} className="nav-link">
                   Contact
-                </a>
+                </Link>
               </Hover>
             </li>
           </ul>

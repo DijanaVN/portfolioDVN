@@ -18,8 +18,10 @@ const Projects = () => {
             alt="..."
           />
           <div className="card-body d-flex flex-column justify-content-between">
-            <h5 className="card-title fst-italic fw-bold">Game-Hub-Project</h5>
-            <p className="card-text fw-semibold">
+            <h5 className="card-title fst-italic fs-2 fw-bold">
+              Game-Hub-Project
+            </h5>
+            <p className="card-text fs-4 fw-semibold">
               This project was crafted as part of Mosh Hamedani's React +
               Typescript courses. It represents the culmination of my learning
               journey, covering beginner to intermediate topics in React.
@@ -29,14 +31,14 @@ const Projects = () => {
             <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts ">
               <a
                 href="https://game-egeyzvvti-dijanavn.vercel.app/"
-                className="btn btn-danger"
+                className="btn btn-danger fs-5"
                 target="_blank"
               >
                 Game-Hub-Site
               </a>
               <a
                 href="https://github.com/DijanaVN/game-hub"
-                className="btn btn-danger"
+                className="btn btn-danger fs-5"
                 target="_blank"
               >
                 GitHub-Link
@@ -57,10 +59,10 @@ const Projects = () => {
             alt="..."
           />
           <div className="card-body d-flex flex-column justify-content-between">
-            <h5 className="card-title fst-italic fw-bold">
+            <h5 className="card-title fst-italic fs-2 fw-bold">
               Shop-Shopping-Site-Project
             </h5>
-            <p className="card-text fw-semibold">
+            <p className="card-text fw-semibold fs-4">
               "This is my second personal project where I implemented a wider
               range of components, delved deeper into React possibilities, and
               gained more hands-on practice. I utilized the Fake Store API to
@@ -73,14 +75,14 @@ const Projects = () => {
             <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
               <a
                 href="https://shop-shopping-site-uop84c985-dijanavn.vercel.app/"
-                className="btn btn-info "
+                className="btn btn-info fs-5"
                 target="_blank"
               >
                 Shop-Shopping-Site
               </a>
               <a
                 href="https://github.com/DijanaVN/shop-shopping-site"
-                className="btn btn-info "
+                className="btn btn-info fs-5"
                 target="_blank"
               >
                 GitHub-Link
@@ -101,10 +103,10 @@ const Projects = () => {
             alt="..."
           />
           <div className="card-body d-flex flex-column justify-content-between">
-            <h5 className="card-title fst-italic fw-bold">
+            <h5 className="card-title fst-italic fs-2 fw-bold">
               Delishes-Recipes-Project
             </h5>
-            <p className="card-text fw-semibold">
+            <p className="card-text fw-semibold fs-4">
               After completing the React courses, I started my own project where
               I implemented the knowledge and skills I learned. This project was
               developed using React, Typescript, and Vite, and deployed on
@@ -114,12 +116,12 @@ const Projects = () => {
             <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
               <a
                 href="https://delishes-recipes-page-50ho7xkub-dijanavn.vercel.app/"
-                className="btn btn-success"
+                className="btn btn-success fs-5"
                 target="_blank"
               >
-                Delishes-Recipes-Site
+                Delishes-Site
               </a>
-              <a href="#" className="btn btn-success" target="_blank">
+              <a href="#" className="btn btn-success fs-5" target="_blank">
                 GitHub-Link
               </a>
             </div>
@@ -138,8 +140,10 @@ const Projects = () => {
             alt="..."
           />
           <div className="card-body d-flex flex-column justify-content-between">
-            <h5 className="card-title fst-italic fw-bold">Moshify-Project</h5>
-            <p className="card-text fw-semibold">
+            <h5 className="card-title fst-italic fs-2 fw-bold">
+              Moshify-Project
+            </h5>
+            <p className="card-text fw-semibold fs-4">
               This project, created during my early learning stages, is a result
               of my participation in Mosh Hamedani's 'The Ultimate HTML5 & CSS3
               Series' course. It showcases my foundational skills in HTML and
@@ -149,14 +153,14 @@ const Projects = () => {
             <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
               <a
                 href="https://chipper-medovik-3c1af1.netlify.app/"
-                className="btn btn-light"
+                className="btn btn-light fs-5"
                 target="_blank"
               >
-                Moshify
+                Moshify-Site
               </a>
               <a
                 href="https://github.com/DijanaVN/moshifyd"
-                className="btn btn-light"
+                className="btn btn-light fs-5"
                 target="_blank"
               >
                 GitHub-Link

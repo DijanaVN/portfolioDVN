@@ -47,7 +47,7 @@ const HomePage = () => {
       </div>
 
       <div
-        className="text-center text-white fonts mt-5 ms-5 fs-1 lh-lg pt-5"
+        className="text-center text-white fonts mt-5  fs-1 lh-lg pt-5"
         ref={contactRef}
       >
         {inViewportContact && <TypingAnimation text={" CONTACT ME"} />}

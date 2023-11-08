@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { TypingAnimation } from "./TypingMotion";
 import { PiPhoneCallFill } from "react-icons/pi";
 import { FaAddressCard } from "react-icons/fa";
@@ -6,10 +6,14 @@ import { IoMdMail } from "react-icons/io";
 import { BsFillPersonFill } from "react-icons/bs";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="container mt-5 pt-5 pb-3  text-white ">
       <h2 data-aos="fade-up" className=" pt-5 ">
-        Message Me
+        Contact Me
       </h2>
       <TypingAnimation text="Feel free to reach out. I'm always open to new opportunities and collaborations."></TypingAnimation>
       <div className="row mt-4 ">
@@ -70,7 +74,6 @@ const Contact = () => {
               ></textarea>
             </div>
             <button
-              data-aos="zoom-in"
               type="submit"
               className="btn btn-primary rounded-pill fonts mt-3"
             >

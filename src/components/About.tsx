@@ -4,6 +4,7 @@ import { BiLogoTypescript, BiLogoCss3 } from "react-icons/bi";
 import { FaReact } from "react-icons/fa";
 import { AiFillGithub, AiOutlineHtml5 } from "react-icons/ai";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   useEffect(() => {
@@ -55,9 +56,9 @@ const About = () => {
               problem-solving, teamwork, and attention to detail.
             </h6>
 
-            <a href="#" className="card-link">
+            <Link className="card-link " to={"/cv"}>
               Explore My Pre-IT Experience CV
-            </a>
+            </Link>
           </div>
         </div>{" "}
       </div>

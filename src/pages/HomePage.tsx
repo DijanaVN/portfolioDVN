@@ -8,6 +8,7 @@ import Projects from "./../components/Projects";
 import { TypingAnimation } from "./../components/TypingMotion";
 import useInViewport from "../hooks/useInViewport";
 import Contact from "../components/Contact";
+import CV from "./PreITExperienceCV";
 
 const HomePage = () => {
   const aboutRef = useRef(null);

@@ -5,6 +5,7 @@ import AboutPage from "./../pages/AboutPage";
 import ErrorPage from "../pages/ErrorPage";
 import ProjectsPage from "./../pages/ProjectsPage";
 import ContactPage from "./../pages/ContactPage";
+import CV from "./../pages/PreITExperienceCV";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
       { path: "/about", element: <AboutPage /> },
       { path: "/projects", element: <ProjectsPage /> },
       { path: "/contact", element: <ContactPage /> },
+      { path: "/cv", element: <CV /> },
     ],
   },
 ]);

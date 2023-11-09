@@ -33,8 +33,19 @@ const About = () => {
             mastering the essentials of web development.
           </h6>
 
-          <a href="#" className="card-link ">
-            Certificates
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/dijana-veljanoska-nikoloska-05679487/details/certifications/"
+            className="card-link "
+          >
+            Udemi+Sololearn Certificates
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/dijana-veljanoska-nikoloska-05679487/details/education/"
+            className="card-link "
+          >
+            Code with Mosh Certificates
           </a>
         </div>
       </div>
@@ -80,9 +91,9 @@ const About = () => {
             innovative projects in the field.
           </h6>
 
-          <a href="#" className="card-link">
+          <Link to="/projects" className="card-link">
             Projects link
-          </a>
+          </Link>
         </div>
       </div>{" "}
       <div
@@ -146,9 +157,9 @@ const About = () => {
             out.
           </h6>
 
-          <a href="#" className="card-link">
+          <Link to="/contact" className="card-link">
             Contact link
-          </a>
+          </Link>
         </div>
       </div>
     </div>

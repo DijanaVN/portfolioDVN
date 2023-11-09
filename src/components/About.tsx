@@ -1,4 +1,3 @@
-import Reveal from "./RevealMotion";
 import { TbBrandJavascript } from "react-icons/tb";
 import { BiLogoTypescript, BiLogoCss3 } from "react-icons/bi";
 import { FaReact } from "react-icons/fa";

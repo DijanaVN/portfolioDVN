@@ -16,7 +16,7 @@ const Main = () => {
   };
   const iconStyle = {
     margin: "10px",
-    fontSize: 30, // Add some margin between the icons
+    fontSize: 30,
   };
 
   return (

@@ -1,8 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import img from "../assets/images/CV - Mrs. DijanaVeljanoskaNikoloskaForPortfolio_00001 (1).webp";
 import img1 from "../assets/images/CV - Mrs. DijanaVeljanoskaNikoloskaForPortfolio_00002 (2).webp";
 import img2 from "../assets/images/CV - Mrs. DijanaVeljanoskaNikoloskaForPortfolio_00003 (1).webp";
-import useInViewport from "../hooks/useInViewport";
 
 const CV = () => {
   useEffect(() => {

@@ -1,35 +1,62 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { TypingAnimation } from "./TypingMotion";
 import { PiPhoneCallFill } from "react-icons/pi";
 import { FaAddressCard } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { BsFillPersonFill } from "react-icons/bs";
+import emailjs from "@emailjs/browser";
+import ThankYouModal from "./ThankYouModal";
 
 const Contact = () => {
+  const form = useRef<HTMLFormElement | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    to_name: "",
+    from_name: "",
+    message: "",
+  });
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({ ...prevData, [name]: value }));
+  };
+  const sendEmail = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (form.current) {
+      emailjs
+        .sendForm(
+          "service_7gpa648",
+          "template_hjrw21f",
+          form.current,
+          "lzr2W_keMpvMg2MBE"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
+    setIsModalOpen(true);
+    setFormData({ to_name: "", from_name: "", message: "" });
+  };
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
   return (
-    <div className="container mt-5 pt-5 pb-3  text-white ">
+    <div className="container mt-5 pt-5 pb-3  text-white  ">
       <h2 data-aos="fade-up" className=" pt-5 ">
         Contact Me
       </h2>
       <TypingAnimation text="Feel free to reach out. I'm always open to new opportunities and collaborations."></TypingAnimation>
       <div className="row mt-4 ">
         <div className="col-md-6 pe-5">
-          <form
-            action="https://formsubmit.co/veljanovskadijana@yahoo.com"
-            method="POST"
-          >
-            {/* Hopeypot */}
-            <input type="text" name="_honey" style={{ display: "none" }} />
-            {/* Disable Captcha */}
-            <input type="hidden" name="_captcha" value="false" />
-
-            {/* show wy own success page */}
-            {/* <input type="hidden" name="_next" value="https://"> */}
-
+          <form ref={form} onSubmit={sendEmail}>
             <div className="mb-3">
               <label data-aos="zoom-in" htmlFor="name" className="form-label">
                 Name
@@ -38,7 +65,9 @@ const Contact = () => {
                 type="text"
                 className="form-control bg-light "
                 id="name"
-                name="name"
+                name="to_name"
+                value={formData.to_name}
+                onChange={handleChange}
                 placeholder="Your Name"
                 required
               />
@@ -51,7 +80,9 @@ const Contact = () => {
                 type="email"
                 className="form-control bg-light"
                 id="email"
-                name="email"
+                name="from_name"
+                value={formData.from_name}
+                onChange={handleChange}
                 placeholder="Your Email"
                 required
               />
@@ -68,6 +99,8 @@ const Contact = () => {
                 className="form-control bg-light"
                 id="message"
                 name="message"
+                value={formData.message}
+                onChange={handleChange}
                 rows={4}
                 placeholder="Your Message"
                 required
@@ -75,6 +108,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
+              value={"Send"}
               className="btn btn-primary rounded-pill fonts mt-3"
             >
               Send Message
@@ -130,6 +164,10 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ThankYouModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </div>
   );
 };

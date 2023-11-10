@@ -59,11 +59,14 @@ const About = () => {
             <h2 className="card-title ">Professional Transition:</h2>
 
             <h6 className="card-text text-center mt-3 mb-3 lh-lg fs-5">
-              I come from a diverse background where I spent over a decade as a
+              "I come from a diverse background where I spent over a decade as a
               dedicated store manager. My extensive experience in managing
               operations, leading teams, and delivering exceptional customer
               service has equipped me with valuable skills such as
-              problem-solving, teamwork, and attention to detail.
+              problem-solving, teamwork, and attention to detail. Throughout my
+              career, I have consistently demonstrated a track record of
+              achieving goals and exceeding targets, showcasing my determination
+              and commitment to success.
             </h6>
 
             <Link className="card-link " to={"/cv"}>
@@ -108,7 +111,7 @@ const About = () => {
               💡 Understanding of HTML, CSS, JavaScript, React, and TypeScript.
             </li>
 
-            <li>🛠️ Understandin in version control systems like Git.</li>
+            <li>🛠️ Understanding in version control systems like Git.</li>
 
             <li>
               🤝 Strong teamwork and collaboration skills honed through years of
@@ -134,7 +137,7 @@ const About = () => {
           <h6 className="card-text text-center mt-3 mb-3 lh-lg fs-5">
             I am actively seeking a company environment that will provide me
             with the opportunity to enhance my abilities and expand my
-            knowledge. i ma seeking to belong in a team which will help me to
+            knowledge. I am seeking to belong in a team which will help me to
             reach my ultimate goal to become an experienced frontend developer,
             with numerous successful projects under my belt.
           </h6>

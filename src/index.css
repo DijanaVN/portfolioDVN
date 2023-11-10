@@ -12,3 +12,8 @@
 .imgopacity {
   opacity: 0.85;
 }
+.custom-modal .modal-content {
+  background-color: rgb(196, 173, 230);
+  color: black;
+  text-align: center;
+}

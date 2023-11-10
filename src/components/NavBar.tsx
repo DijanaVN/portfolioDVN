@@ -14,14 +14,13 @@ const NavBar = () => {
       bg="dark"
       variant="dark"
     >
-      <motion.a
+      <motion.div
         animate={{
           scale: [1, 2, 2, 1, 1],
           rotate: [0, 0, 200, 200, 0],
           borderRadius: ["20%", "20%", "50%", "50%", "20%"],
         }}
         className="navbar-brand"
-        href="#"
       >
         <Link to={"/"}>
           <img
@@ -31,7 +30,7 @@ const NavBar = () => {
             height="75"
           />
         </Link>
-      </motion.a>{" "}
+      </motion.div>{" "}
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse
         id="responsive-navbar-nav"

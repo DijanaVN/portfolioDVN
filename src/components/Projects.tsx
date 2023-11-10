@@ -31,14 +31,14 @@ const Projects = () => {
             <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts ">
               <a
                 href="https://game-egeyzvvti-dijanavn.vercel.app/"
-                className="btn btn-danger fs-5"
+                className="btn btn-danger fs-6"
                 target="_blank"
               >
                 Game-Hub-Site
               </a>
               <a
                 href="https://github.com/DijanaVN/game-hub"
-                className="btn btn-danger fs-5"
+                className="btn btn-danger fs-6"
                 target="_blank"
               >
                 GitHub-Link
@@ -75,14 +75,14 @@ const Projects = () => {
             <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
               <a
                 href="https://shop-shopping-site-uop84c985-dijanavn.vercel.app/"
-                className="btn btn-info fs-5"
+                className="btn btn-info fs-6"
                 target="_blank"
               >
-                Shop-Shopping-Site
+                Shopping-Site
               </a>
               <a
                 href="https://github.com/DijanaVN/shop-shopping-site"
-                className="btn btn-info fs-5"
+                className="btn btn-info fs-6"
                 target="_blank"
               >
                 GitHub-Link
@@ -116,12 +116,12 @@ const Projects = () => {
             <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
               <a
                 href="https://delishes-recipes-page-50ho7xkub-dijanavn.vercel.app/"
-                className="btn btn-success fs-5"
+                className="btn btn-success fs-6"
                 target="_blank"
               >
                 Delishes-Site
               </a>
-              <a href="#" className="btn btn-success fs-5" target="_blank">
+              <a href="#" className="btn btn-success fs-6" target="_blank">
                 GitHub-Link
               </a>
             </div>
@@ -153,14 +153,14 @@ const Projects = () => {
             <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
               <a
                 href="https://chipper-medovik-3c1af1.netlify.app/"
-                className="btn btn-light fs-5"
+                className="btn btn-light fs-6"
                 target="_blank"
               >
                 Moshify-Site
               </a>
               <a
                 href="https://github.com/DijanaVN/moshifyd"
-                className="btn btn-light fs-5"
+                className="btn btn-light fs-6"
                 target="_blank"
               >
                 GitHub-Link

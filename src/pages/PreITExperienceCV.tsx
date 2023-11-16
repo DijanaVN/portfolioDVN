@@ -1,33 +1,17 @@
 import React, { useEffect } from "react";
-import img from "../assets/images/CV - Mrs. DijanaVeljanoskaNikoloskaForPortfolio_00001 (1).webp";
-import img1 from "../assets/images/CV - Mrs. DijanaVeljanoskaNikoloskaForPortfolio_00002 (2).webp";
-import img2 from "../assets/images/CV - Mrs. DijanaVeljanoskaNikoloskaForPortfolio_00003 (1).webp";
 
 const CV = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const documentURL =
+    "https://docs.google.com/document/d/e/2PACX-1vR34udhVF6GIG3nNvW4Vv2QfU9WBZKC6HCp5ox7x1RZyVQUc-bi-6_RJDntdWLRObU4nDVLh20hKthP/pub?embedded=true";
   return (
     <>
-      <img
-        className="img-fluid"
-        data-aos="zoom-in"
-        data-aos-duration="3000"
-        src={img}
-      />
-      <img
-        className="img-fluid"
-        data-aos="zoom-in"
-        data-aos-duration="1000"
-        src={img1}
-      />
-      <img
-        className="img-fluid"
-        data-aos="zoom-in"
-        data-aos-duration="1000"
-        src={img2}
-      />
+      <div className="mt-5 ms-5">
+        <iframe src={documentURL} width="100%" height="600px" />
+      </div>
     </>
   );
 };

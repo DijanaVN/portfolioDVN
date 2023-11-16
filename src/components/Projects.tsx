@@ -15,7 +15,7 @@ const Projects = () => {
           <img
             src={img}
             className="card-img-top  h-50 object-fit-cover"
-            alt="..."
+            alt="image of Dijana Veljanoska Nikoloska"
           />
           <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title fst-italic fs-2 fw-bold">
@@ -51,7 +51,7 @@ const Projects = () => {
         <div
           data-aos="flip-left"
           data-aos-duration="3000"
-          className="card h-100 text-bg-warning m-lg-5"
+          className="card h-100 text-bg-warning opacity-75 m-lg-5"
         >
           <img
             src={img1}
@@ -95,7 +95,7 @@ const Projects = () => {
         <div
           data-aos="flip-right"
           data-aos-duration="3000"
-          className="card h-100 text-bg-warning m-lg-5"
+          className="card h-100 text-bg-warning opacity-75 m-lg-5"
         >
           <img
             src={img2}
@@ -132,7 +132,7 @@ const Projects = () => {
         <div
           data-aos="zoom-in"
           data-aos-duration="3000"
-          className="card h-100 text-bg-warning m-lg-5"
+          className="card h-100 text-bg-warning opacity-75 m-lg-5"
         >
           <img
             src={img3}

@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from "../assets/images/9a34d902-52a7-46e9-af0b-a8dd40868a88.jpg";
+import img2 from "../assets/images/b0567f75-b815-4863-bdaf-657da1069d9c.webp";
 import { TypingAnimation } from "./TypingMotion";
 import { GrLinkedin } from "react-icons/gr";
 import { BsGithub } from "react-icons/bs";

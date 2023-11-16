@@ -36,7 +36,7 @@ const About = () => {
             <div className="col-lg-8  d-flex justify-content-center align-items-center">
               <div className="card-body ">
                 <p className="card-title fs-3 fw-bold text-md">About Me:</p>
-                <p className="card-text text-start ps-5  mt-3 mb-3 lh-lg fs-5 text-sm">
+                <p className="card-text text-start ps-md-5  mt-3 mb-3 lh-lg fs-6 ">
                   Hello! I'm Dijana, a passionate React developer with a strong
                   commitment to web technologies. I hold certificates in HTML
                   <AiOutlineHtml5 />
@@ -46,20 +46,9 @@ const About = () => {
                   mastering the essentials of web development.
                 </p>
                 <div>
-                  <a
-                    target="_blank"
-                    href="https://www.linkedin.com/in/dijana-veljanoska-nikoloska-05679487/details/certifications/"
-                    className="card-link fw-bold"
-                  >
-                    Udemy & Sololearn Certificates
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://www.linkedin.com/in/dijana-veljanoska-nikoloska-05679487/details/education/"
-                    className="card-link fw-bold"
-                  >
-                    Code with Mosh Certificates
-                  </a>
+                  <Link to={"/certificates"} className="card-link fw-bold">
+                    Certificates
+                  </Link>
                 </div>
               </div>
             </div>
@@ -68,7 +57,7 @@ const About = () => {
       </div>
       <div className="row m-5">
         <div
-          data-aos="zoom-out-left"
+          data-aos="zoom-out-right"
           data-aos-duration="2000"
           className="card mb-3"
         >
@@ -78,7 +67,7 @@ const About = () => {
                 <p className="card-title fs-3 fw-bold">
                   Professional Transition:
                 </p>
-                <p className="card-text text-start ps-5  mt-3 mb-3 lh-lg fs-5 ">
+                <p className="card-text text-start ps-md-5   mt-3 mb-3 lh-lg fs-6 ">
                   With over a decade of experience as a dedicated store manager,
                   I bring a proven track record in operations management, team
                   leadership, and delivering exceptional customer service. My
@@ -120,10 +109,10 @@ const About = () => {
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
-            <div className="col-lg-8 ">
+            <div className="col-lg-8 d-flex justify-content-center align-items-center ">
               <div className="card-body">
                 <p className="card-title fs-3 fw-bold">Career Shift:</p>
-                <p className="card-text text-start ps-5 mt-3 mb-3 lh-lg fs-5">
+                <p className="card-text text-start ps-md-5  mt-3 mb-3 lh-lg fs-6">
                   Driven by my enthusiasm for technology and problem-solving, I
                   decided to embark on a new journey in the world of web
                   development. I am deeply passionate about creating seamless
@@ -145,7 +134,7 @@ const About = () => {
       </div>
       <div className="row m-5">
         <div
-          data-aos="zoom-out-left"
+          data-aos="zoom-out-right"
           data-aos-duration="2000"
           className="card  bg-light mb-3"
         >
@@ -153,7 +142,7 @@ const About = () => {
             <div className="col-lg-8  d-flex justify-content-center align-items-center">
               <div className="card-body">
                 <p className="card-title fs-3 fw-bold">What I Offer:</p>
-                <ul className="list-group list-group-flush ps-5 mt-3 mb-3 lh-lg fs-5">
+                <ul className="list-group list-group-flush ps-md-5  mt-3 mb-3 lh-lg fs-6">
                   <li className="list-group-item">
                     💡 Understanding of HTML, CSS, JavaScript, React, and
                     TypeScript.
@@ -204,7 +193,7 @@ const About = () => {
                 <p className="card-title fs-3 fw-bold">
                   My Ideal Working Environment:
                 </p>
-                <ul className="list-group list-group-flush ps-5 mt-3 mb-3 lh-lg fs-5">
+                <ul className="list-group list-group-flush ps-md-5  mt-3 mb-3 lh-lg fs-6">
                   <li className="list-group-item">
                     Seeking an innovative, dynamic, and team-oriented company
                     environment.
@@ -230,7 +219,7 @@ const About = () => {
       </div>{" "}
       <div className="row m-5">
         <div
-          data-aos="zoom-out-left"
+          data-aos="zoom-out-right"
           data-aos-duration="2000"
           className="card mb-3"
         >
@@ -238,7 +227,7 @@ const About = () => {
             <div className="col-lg-8  d-flex justify-content-center align-items-center">
               <div className="card-body">
                 <p className="card-title fs-3 fw-bold">Let's Connect:</p>
-                <p className="card-text text-start ps-5  mt-3 mb-3 lh-lg fs-5 ">
+                <p className="card-text text-start ps-md-5   mt-3 mb-3 lh-lg fs-6 ">
                   I am open to new challenges and eager to make a meaningful
                   impact. If you are looking for a dedicated and motivated team
                   member or have exciting projects where I can contribute,

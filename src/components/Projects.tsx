@@ -28,7 +28,7 @@ const Projects = () => {
               Through this course, I gained a deep understanding of React and
               Typescript.
             </p>
-            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts ">
+            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 ">
               <a
                 href="https://game-egeyzvvti-dijanavn.vercel.app/"
                 className="btn btn-danger fs-6"
@@ -72,7 +72,7 @@ const Projects = () => {
               motivated me to explore React libraries further, and my next goal
               is to learn Next.js."
             </p>
-            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
+            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5">
               <a
                 href="https://shop-shopping-site-uop84c985-dijanavn.vercel.app/"
                 className="btn btn-info fs-6"
@@ -113,7 +113,7 @@ const Projects = () => {
               Vercel. I integrated the Edamam Recipe API to enhance its
               functionality.
             </p>
-            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
+            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5">
               <a
                 href="https://delishes-recipes-page-50ho7xkub-dijanavn.vercel.app/"
                 className="btn btn-success fs-6"
@@ -150,7 +150,7 @@ const Projects = () => {
               CSS, gained through Mosh's comprehensive lessons and hands-on
               projects."
             </p>{" "}
-            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5 fonts">
+            <div className="d-flex justify-content-between ps-xl-5 pe-xl-5">
               <a
                 href="https://chipper-medovik-3c1af1.netlify.app/"
                 className="btn btn-light fs-6"

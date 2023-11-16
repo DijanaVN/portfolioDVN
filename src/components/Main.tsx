@@ -12,7 +12,7 @@ const Main = () => {
     display: "flex",
     alignItems: "center",
     margin: "3vw 0",
-    opacity: 0.7,
+    opacity: 1,
   };
   const iconStyle = {
     margin: "10px",

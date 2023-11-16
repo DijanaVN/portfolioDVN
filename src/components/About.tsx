@@ -22,7 +22,7 @@ const About = () => {
         <div
           className=" card mb-3  "
           data-aos="zoom-out-left"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
         >
           <div className="row no-gutters">
             <div className="col-lg-4  d-flex justify-content-center align-items-center">
@@ -58,7 +58,7 @@ const About = () => {
       <div className="row m-5">
         <div
           data-aos="zoom-out-right"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
           className="card mb-3"
         >
           <div className="row no-gutters">
@@ -98,7 +98,7 @@ const About = () => {
         <div
           className=" card mb-3"
           data-aos="zoom-out-left"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
         >
           <div className="row no-gutters">
             <div className="col-lg-4  d-flex justify-content-center align-items-center">
@@ -135,7 +135,7 @@ const About = () => {
       <div className="row m-5">
         <div
           data-aos="zoom-out-right"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
           className="card  bg-light mb-3"
         >
           <div className="row no-gutters">
@@ -177,7 +177,7 @@ const About = () => {
         <div
           className=" card mb-3"
           data-aos="zoom-out-left"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
         >
           <div className="row no-gutters">
             <div className="col-lg-4  d-flex justify-content-center align-items-center">
@@ -220,7 +220,7 @@ const About = () => {
       <div className="row m-5">
         <div
           data-aos="zoom-out-right"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
           className="card mb-3"
         >
           <div className="row no-gutters">

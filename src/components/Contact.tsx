@@ -109,7 +109,7 @@ const Contact = () => {
             <button
               type="submit"
               value={"Send"}
-              className="btn btn-primary rounded-pill fonts mt-3"
+              className="btn btn-primary rounded-pill  mt-3"
             >
               Send Message
             </button>

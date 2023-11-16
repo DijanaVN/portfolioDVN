@@ -1,6 +1,5 @@
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 interface Props {
   isOpen: boolean;
@@ -13,7 +12,7 @@ const ThankYouModal = ({ isOpen, onClose }: Props) => {
       <Modal.Header closeButton>
         <Modal.Title>Thank You!</Modal.Title>
       </Modal.Header>
-      <Modal.Body className="fonts">
+      <Modal.Body>
         Thank you for contacting me! I appreciate your message. I will get back
         to you as soon as possible.
       </Modal.Body>

@@ -11,156 +11,39 @@ import img9 from "../assets/images/40ec507c-8edc-44b3-8b04-b6d543a91329.webp";
 import img10 from "../assets/images/54e8b293-246c-4096-b9e5-00b8ad82b986.webp";
 import img11 from "../assets/images/4cb91d04-4865-4190-8f90-576d3636a0b0.webp";
 import img12 from "../assets/images/6358942a-6ce8-471e-b0c0-c504f6eb2b70.webp";
+import CertificateGrid from "./CertificateGrid";
 
 const Certificates = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const setup: React.CSSProperties = {
+    maxHeight: "500px",
+    objectFit: "cover",
+  };
+
+  const certificateImages = [
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+  ];
 
   return (
     <>
       <div className="container mt-5">
         <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2">
-          <div
-            className="col border border-3  "
-            data-aos="zoom-out-right"
-            data-aos-duration="2000"
-          >
-            <img
-              src={img1}
-              className="card-img img-fluid pt-2 pb-2 "
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
-          <div className="col border border-3" data-aos="zoom-out-left">
-            <img
-              src={img2}
-              className="card-img img-fluid pt-2 pb-2"
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
-        </div>
-      </div>
-      <div className="container mt-5">
-        <div className="row row-cols-2">
-          <div
-            className="col border border-3"
-            data-aos="zoom-out-right"
-            data-aos-duration="2000"
-          >
-            <img
-              src={img3}
-              className="card-img img-fluid pt-2 pb-2"
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
-          <div className="col border border-3" data-aos="zoom-out-left">
-            <img
-              src={img4}
-              className="card-img img-fluid pt-2 pb-2"
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
-        </div>
-      </div>
-      <div className="container mt-5">
-        <div className="row row-cols-2">
-          <div
-            className="col border border-3"
-            data-aos="zoom-out-right"
-            data-aos-duration="2000"
-          >
-            <img
-              src={img5}
-              className="card-img img-fluid pt-2 pb-2"
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
-          <div className="col border border-3" data-aos="zoom-out-left">
-            <img
-              src={img6}
-              className="card-img img-fluid pt-2 pb-2"
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
-        </div>
-      </div>
-      <div className="container mt-5">
-        <div className="row row-cols-2">
-          <div
-            className="col border border-3"
-            data-aos="zoom-out-right"
-            data-aos-duration="2000"
-          >
-            <img
-              src={img7}
-              className="card-img img-fluid pt-2 pb-2"
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
-          <div className="col border border-3" data-aos="zoom-out-left">
-            <img
-              src={img8}
-              className="card-img img-fluid pt-2 pb-2"
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
-        </div>
-      </div>{" "}
-      <div className="container mt-5">
-        <div className="row row-cols-2">
-          <div
-            className="col border border-3"
-            data-aos="zoom-out-right"
-            data-aos-duration="2000"
-          >
-            <img
-              src={img9}
-              className="card-img img-fluid pt-2 pb-2"
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
-          <div className="col border border-3" data-aos="zoom-out-left">
-            <img
-              src={img10}
-              className="card-img img-fluid pt-2 pb-2"
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
-        </div>
-      </div>
-      <div className="container mt-5">
-        <div className="row row-cols-2">
-          <div
-            className="col border border-3"
-            data-aos="zoom-out-right"
-            data-aos-duration="2000"
-          >
-            <img
-              src={img11}
-              className="card-img img-fluid pt-2 pb-2"
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
-          <div className="col border border-3" data-aos="zoom-out-left">
-            <img
-              src={img12}
-              className="card-img img-fluid pt-2 pb-2"
-              alt="Card Img Dijana Veljanoska Nikoloska"
-              style={{ maxHeight: "300px", objectFit: "cover" }}
-            />
-          </div>
+          {certificateImages.map((imgSrc, index) => (
+            <CertificateGrid key={index} img={imgSrc} setup={setup} />
+          ))}
         </div>
       </div>
     </>

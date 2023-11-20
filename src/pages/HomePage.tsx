@@ -25,8 +25,8 @@ const HomePage = () => {
   };
   return (
     <div className="container-fluid  " style={backgroundStyle}>
+      <NavBar />
       <div className="container-fluid pt-5 mb-5 ">
-        <NavBar />
         <Main />
       </div>
       <div

@@ -20,7 +20,7 @@ const Footer = () => {
           style={{ height: "4.5vw", margin: "5px" }}
         />
       </div>
-      <p className="mb-0 fs-6 text-wrap">
+      <p className="mb-0 text-font-size-des text-wrap">
         &copy; 2023 DijanaVN. All Rights Reserved.
       </p>
       <div className="d-flex align-items-center">

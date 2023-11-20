@@ -28,7 +28,7 @@ const ScrollToTopButton = () => {
         <button
           data-aos="fade-up"
           data-aos-duration="1000"
-          className="btn btn-light rounded-circle d-md-none"
+          className="btn btn-light rounded-circle d-md-none text-font-size-des"
           style={{
             position: "fixed",
             bottom: "4rem",
@@ -45,7 +45,7 @@ const ScrollToTopButton = () => {
         <button
           data-aos="fade-up"
           data-aos-duration="1000"
-          className="btn btn-light rounded-circle d-none d-md-block d-xl-none"
+          className="btn btn-light rounded-circle d-none d-md-block d-xl-none text-font-size-des"
           style={{
             position: "fixed",
             bottom: "5rem",
@@ -62,7 +62,7 @@ const ScrollToTopButton = () => {
         <button
           data-aos="fade-up"
           data-aos-duration="1000"
-          className="btn btn-light rounded-circle d-none d-xl-block"
+          className="btn btn-light rounded-circle d-none d-xl-block text-font-size-des"
           style={{
             position: "fixed",
             bottom: "8.5rem",

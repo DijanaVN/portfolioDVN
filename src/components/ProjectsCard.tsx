@@ -20,7 +20,7 @@ const ProjectCard = ({
     <div
       data-aos="zoom-in"
       data-aos-duration="1500"
-      className={`card h-100 text-bg-light opacity-75 p-2 text-black`}
+      className={`card h-100 text-bg-light p-2 text-black`}
     >
       <div className="p-2 h-100">
         <img

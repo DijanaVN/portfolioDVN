@@ -31,13 +31,15 @@ const NavBar = () => {
           />
         </Link>
       </motion.div>{" "}
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav">
+        <span className="navbar-toggler-icon"></span>{" "}
+      </Navbar.Toggle>
       <Navbar.Collapse
         id="responsive-navbar-nav"
         className={`justify-content-end ${expanded ? "show" : ""}`}
       >
-        <Nav className="ml-auto">
-          <ul className="navbar-nav fs-3 text-white pe-5 fonts2">
+        <Nav className="ml-auto ">
+          <ul className="navbar-nav text-font-size text-white pe-5 fonts2">
             <li className="nav-item pe-5">
               <Hover>
                 <Link to={"/about"} className="nav-link " aria-current="page">

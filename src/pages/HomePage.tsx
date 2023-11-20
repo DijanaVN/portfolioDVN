@@ -25,8 +25,7 @@ const HomePage = () => {
   };
   return (
     <div className="container-fluid  " style={backgroundStyle}>
-      <NavBar />
-      <div className="container-fluid pt-5 mb-5 ">
+      <div className=" main-padding">
         <Main />
       </div>
       <div
@@ -35,9 +34,11 @@ const HomePage = () => {
       >
         {inViewportAbout && <TypingAnimation text={" ABOUT SECTION"} />}
       </div>
-      <About />
+      <div>
+        <About />
+      </div>
       <div
-        className="text-center text-white fonts  mb-5 fs-1 lh-lg"
+        className="text-center text-white fonts pt-5 pb-5 mb-5 fs-1 lh-lg"
         ref={projectsRef}
       >
         {inViewportProjects && <TypingAnimation text={" PROJECTS"} />}
@@ -47,13 +48,14 @@ const HomePage = () => {
       </div>
 
       <div
-        className="text-center text-white fonts mt-5  fs-1 lh-lg pt-5"
+        className="text-center text-white fonts mt-5 pt-5 fs-1 lh-lg "
         ref={contactRef}
       >
         {inViewportContact && <TypingAnimation text={" CONTACT ME"} />}
       </div>
-      <Contact />
-
+      <div className="main-padding">
+        <Contact />
+      </div>
       <ScrollToTopButton />
     </div>
   );

@@ -8,7 +8,7 @@ const Layout = () => {
       <div className="bg-primary sticky-top">
         <NavBar />
       </div>
-      <Container fluid className="mt-3">
+      <Container fluid>
         <Row>
           <Col>
             <Outlet />

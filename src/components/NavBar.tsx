@@ -8,12 +8,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
   return (
-    <Navbar
-      className="navbar fixed-top pe-5 ps-5"
-      expand="md"
-      bg="dark"
-      variant="dark"
-    >
+    <Navbar className="navbar ps-5 pe-5" expand="md" bg="dark" variant="dark">
       <motion.div
         animate={{
           scale: [1, 2, 2, 1, 1],
@@ -25,9 +20,9 @@ const NavBar = () => {
         <Link to={"/"}>
           <img
             src={img}
-            className="bd-placeholder-img object-fit-cover border rounded"
+            className="bd-placeholder-img logo-sign object-fit-cover border rounded"
             alt="Logo DijanaVN"
-            style={{ height: "5vw" }}
+          
           />
         </Link>
       </motion.div>{" "}
@@ -39,7 +34,7 @@ const NavBar = () => {
         className={`justify-content-end ${expanded ? "show" : ""}`}
       >
         <Nav className="ml-auto ">
-          <ul className="navbar-nav text-font-size text-white pe-5 fonts2">
+          <ul className="navbar-nav text-font-size-nav text-white pe-5 fonts2">
             <li className="nav-item pe-5">
               <Hover>
                 <Link to={"/about"} className="nav-link " aria-current="page">

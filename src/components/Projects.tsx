@@ -44,7 +44,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="row row-cols-1 row-cols-md-2 g-4 ">
+    <div className="row row-cols-1 row-cols-md-2 g-5 ">
       {projects.map((project, index) => (
         <ProjectsCard key={index} {...project} />
       ))}

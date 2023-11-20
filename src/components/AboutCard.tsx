@@ -11,10 +11,10 @@ interface AboutProp {
 }
 
 const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
-  <div className="row p-3 p-sm-5 mt-lg-5 text-font-size">
+  <div className="row p-3 p-sm-5  text-font-size">
     <div
       className="card mb-3"
-      data-aos={index % 2 === 0 ? "zoom-out-right" : "zoom-out-left"}
+      data-aos={index % 2 === 0 ? "zoom-in-up" : "zoom-in-down"}
       data-aos-duration="1500"
     >
       <div className="row no-gutters">
@@ -31,7 +31,6 @@ const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
               width: "100%",
               height: "auto",
               objectFit: "cover",
-              padding: "5px",
             }}
           />
         </div>

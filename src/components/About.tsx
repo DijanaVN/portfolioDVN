@@ -36,7 +36,7 @@ const About = () => {
       title: "What I Offer:",
       list: [
         "💡 Understanding of HTML, CSS, JavaScript, React, and TypeScript.",
-        "🛠️ Understanding in version control systems like Git & GitHub.",
+        "🛠️ Understanding of version control systems like Git & GitHub.",
         "🤝 Strong teamwork and collaboration skills honed through years of managing teams.",
         "🌟 Eagerness to learn, adapt, and grow in the ever-evolving tech landscape.",
       ],

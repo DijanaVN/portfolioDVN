@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import img2 from "../assets/images/48c7d82e-53f5-4c24-bfb8-fdcbbfb14c50.webp";
 import { TypingAnimation } from "./TypingMotion";
 import { GrLinkedin } from "react-icons/gr";
@@ -6,9 +6,21 @@ import { BsGithub } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 
 const Main = () => {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   const mainStyle = {
     background: `url(${img2}) no-repeat center center/cover`,
-    height: "60vw",
+    height: screenWidth <= 500 ? "100vw" : "70vw",
     display: "flex",
     alignItems: "center",
     opacity: 1,
@@ -27,14 +39,8 @@ const Main = () => {
 
   return (
     <div className="container-fluid" style={frameStyle}>
-      <div className="container-fluid" style={mainStyle}>
-        <div
-          style={{
-            backgroundColor: "rgba(0, 0, 0, 0.1)",
-            paddingLeft: "1vw",
-            boxShadow: "0.3em 0.3em 1em 1em rgba(0, 0, 0, 0.1)",
-          }}
-        >
+      <div className="container-fluid " style={mainStyle}>
+        <div className="text-shadow-main ">
           <div
             data-aos="zoom-in-right"
             data-aos-duration="3000"

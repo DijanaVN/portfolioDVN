@@ -19,7 +19,7 @@ const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
     >
       <div className="row no-gutters">
         <div
-          className={`col-lg-4 d-flex justify-content-center align-items-center order-lg-${
+          className={`col-lg-6 d-flex justify-content-center align-items-center order-lg-${
             index % 2 === 0 ? 1 : 2
           }`}
         >
@@ -27,23 +27,28 @@ const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
             src={img}
             className="card-img img-fluid pt-2 pb-2"
             alt={title}
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            style={{
+              width: "100%",
+              height: "auto",
+              objectFit: "cover",
+              padding: "5px",
+            }}
           />
         </div>
         <div
-          className={`col-lg-8 d-flex justify-content-center align-items-center order-lg-${
+          className={`col-lg-6 d-flex justify-content-center align-items-center order-lg-${
             index % 2 === 0 ? 2 : 1
           }`}
         >
           <div className="card-body">
-            <p className="card-title fs-2 fw-bold">{title}</p>
+            <p className="card-title text-font-size fw-bold">{title}</p>
             {text && (
-              <p className="card-text text-start ps-md-5 mt-3 mb-3 lh-lg  ">
+              <p className="card-text text-start fw-semibold ps-md-5 mt-3 mb-3 lh-lg text-font-size-des  ">
                 {text}
               </p>
             )}
             {list && (
-              <ul className="list-group list-group-flush ps-md-5 mt-3 mb-3 lh-lg  ">
+              <ul className="list-group fw-semibold list-group-flush text-font-size-des ps-md-5 mt-3 mb-3 lh-lg  ">
                 {list.map((item, index) => (
                   <li key={index} className="list-group-item">
                     {item}
@@ -52,7 +57,7 @@ const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
               </ul>
             )}
             {link && (
-              <Link to={link} className="card-link fw-bold">
+              <Link to={link} className="card-link text-font-size-btn fw-bold">
                 {title.includes("Let's Connect")
                   ? "Contact link"
                   : title.includes("About Me")

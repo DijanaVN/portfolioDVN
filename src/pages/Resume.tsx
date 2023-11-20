@@ -6,8 +6,9 @@ const CV = () => {
   }, []);
 
   const documentURL =
-    "https://docs.google.com/document/d/e/2PACX-1vR34udhVF6GIG3nNvW4Vv2QfU9WBZKC6HCp5ox7x1RZyVQUc-bi-6_RJDntdWLRObU4nDVLh20hKthP/pub?embedded=true";
-  return (
+    "https://drive.google.com/file/d/1BiCSDJdH2BJymSS9vKNKX7a0EgO9DeZ0/preview";
+
+  https: return (
     <>
       <div className="mt-5 text-center">
         <div className="ratio ratio-1x1">

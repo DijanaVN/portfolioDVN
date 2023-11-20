@@ -30,8 +30,8 @@ const ProjectCard = ({
         />
       </div>
       <div className="card-body d-flex flex-column justify-content-between">
-        <h5 className="card-title text-font-size fw-bold">{title}</h5>
-        <p className="card-text  text-font-size-des">{description}</p>
+        <h5 className="card-title text-font-size fw-bold pb-4">{title}</h5>
+        <p className="card-text  text-font-size-btn pb-4">{description}</p>
         <div className="d-flex justify-content-between ps-xl-5 pe-xl-5">
           <a
             href={siteLink}

@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
-import img1 from "../assets/images/dij.webp";
+import img1 from "../assets/images/dijana.webp";
 import img2 from "../assets/images/FB_IMG_1609052446671.webp";
 import img3 from "../assets/images/scott-graham-5fNmWej4tAA-unsplash.webp";
 import img4 from "../assets/images/gabriel-heinzer-EUzk9BIEq6M-unsplash.webp";
@@ -63,7 +63,7 @@ const About = () => {
   return (
     <>
       {cardData.map((data, index) => (
-        <AboutCard key={index} {...data} />
+        <AboutCard key={index} index={index} {...data} />
       ))}
     </>
   );

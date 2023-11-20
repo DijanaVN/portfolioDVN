@@ -27,18 +27,52 @@ const ScrollToTopButton = () => {
       {showBackToTop && (
         <button
           data-aos="fade-up"
-          data-aos-duration="2000"
-          className="btn btn-light rounded-circle"
+          data-aos-duration="1000"
+          className="btn btn-light rounded-circle d-md-none"
           style={{
             position: "fixed",
-            bottom: "5.2rem",
-            right: "2rem",
+            bottom: "4rem",
+            right: "2vw",
             zIndex: 1000,
             color: "purple",
           }}
           onClick={scrollToTop}
         >
           <i className="bi bi-arrow-up"> Back to Top</i>
+        </button>
+      )}{" "}
+      {showBackToTop && (
+        <button
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="btn btn-light rounded-circle d-none d-md-block d-xl-none"
+          style={{
+            position: "fixed",
+            bottom: "5rem",
+            right: "2vw",
+            zIndex: 1000,
+            color: "purple",
+          }}
+          onClick={scrollToTop}
+        >
+          <i className="bi bi-arrow-up">Back to Top</i>
+        </button>
+      )}
+      {showBackToTop && (
+        <button
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="btn btn-light rounded-circle d-none d-xl-block"
+          style={{
+            position: "fixed",
+            bottom: "8.5rem",
+            right: "2vw",
+            zIndex: 1000,
+            color: "purple",
+          }}
+          onClick={scrollToTop}
+        >
+          <i className="bi bi-arrow-up">Back to Top</i>
         </button>
       )}
     </>

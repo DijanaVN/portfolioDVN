@@ -13,7 +13,7 @@ const ProjectsPage = () => {
     minHeight: "100vh",
   };
   return (
-    <div className="card-group p-5 mt-5 " style={backgroundStyle}>
+    <div className="card-group p-5 mt-lg-5 " style={backgroundStyle}>
       <Projects />
       <ScrollToTopButton />
     </div>

@@ -27,7 +27,7 @@ const NavBar = () => {
             src={img}
             className="bd-placeholder-img object-fit-cover border rounded"
             alt="Logo DijanaVN"
-            height="75"
+            style={{ height: "5vw" }}
           />
         </Link>
       </motion.div>{" "}

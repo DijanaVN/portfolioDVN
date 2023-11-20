@@ -6,8 +6,8 @@ import img from "../assets/images/logo dvn.webp";
 
 const Footer = () => {
   const iconStyle = {
-    fontSize: "1.5rem",
-    margin: "10px",
+    fontSize: "2.8vw",
+    margin: "8px",
   };
 
   return (
@@ -17,10 +17,12 @@ const Footer = () => {
           className="bd-placeholder-img object-fit-cover border rounded"
           src={img}
           alt="DijanaVN Logo"
-          style={{ width: "50px", height: "50px", margin: "5px" }}
+          style={{ height: "4.5vw", margin: "5px" }}
         />
       </div>
-      <p className="mb-0 text-sm">&copy; 2023 DijanaVN. All Rights Reserved.</p>
+      <p className="mb-0 fs-6 text-wrap">
+        &copy; 2023 DijanaVN. All Rights Reserved.
+      </p>
       <div className="d-flex align-items-center">
         <div
           data-aos="fade-up"

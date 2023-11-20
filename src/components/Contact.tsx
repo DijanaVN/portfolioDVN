@@ -49,8 +49,8 @@ const Contact = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="container mt-5 pt-5 pb-3  text-white  ">
-      <h2 data-aos="fade-up" className=" pt-5 ">
+    <div className="container mt-md-5 pt-5 pb-3  text-white  ">
+      <h2 className="mt-lg-5 pt-lg-5" data-aos="fade-up">
         Contact Me
       </h2>
       <TypingAnimation text="Feel free to reach out. I'm always open to new opportunities and collaborations."></TypingAnimation>

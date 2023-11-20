@@ -24,20 +24,20 @@ const HomePage = () => {
     minHeight: "100vh",
   };
   return (
-    <div
-      className="container-fluid p-0  ms-0 me-0 mt-2 "
-      style={backgroundStyle}
-    >
-      <div>
+    <div className="container-fluid  " style={backgroundStyle}>
+      <div className="container-fluid pt-5 mb-5 ">
         <NavBar />
+        <Main />
       </div>
-      <Main />
-      <div className="text-center text-white fonts fs-1 lh-lg" ref={aboutRef}>
+      <div
+        className="text-center text-white fonts  mb-5 fs-1 lh-lg "
+        ref={aboutRef}
+      >
         {inViewportAbout && <TypingAnimation text={" ABOUT SECTION"} />}
       </div>
       <About />
       <div
-        className="text-center text-white fonts fs-1 lh-lg"
+        className="text-center text-white fonts  mb-5 fs-1 lh-lg"
         ref={projectsRef}
       >
         {inViewportProjects && <TypingAnimation text={" PROJECTS"} />}

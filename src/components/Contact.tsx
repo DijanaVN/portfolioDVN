@@ -49,9 +49,11 @@ const Contact = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="container main-padding  text-white  ">
-      <h2 data-aos="fade-up">Contact Me</h2>
-      <TypingAnimation text="Feel free to reach out. I'm always open to new opportunities and collaborations."></TypingAnimation>
+    <div className="container  contact text-white  ">
+      <div className="container contact-start  ">
+        <h2 data-aos="fade-up">Contact Me</h2>
+        <TypingAnimation text="Feel free to reach out. I'm always open to new opportunities and collaborations."></TypingAnimation>
+      </div>
       <div className="row mt-4 ">
         <div className="col-md-6 pe-5">
           <form ref={form} onSubmit={sendEmail}>

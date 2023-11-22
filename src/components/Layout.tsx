@@ -15,7 +15,7 @@ const Layout = () => {
           </Col>
         </Row>
       </Container>
-      <div className="bg-primary sticky-bottom">
+      <div className="bg-primary">
         <Footer />
       </div>
     </>

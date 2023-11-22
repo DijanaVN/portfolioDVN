@@ -3,6 +3,7 @@ import { BsGithub } from "react-icons/bs";
 import { GrLinkedin } from "react-icons/gr";
 import { IoMdMail } from "react-icons/io";
 import img from "../assets/images/logo dvn.webp";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const iconStyle = {
@@ -13,12 +14,14 @@ const Footer = () => {
   return (
     <footer className="bg-dark text-white text-center py-1 d-flex justify-content-between align-items-center">
       <div className="d-flex align-items-center">
-        <img
-          className="bd-placeholder-img object-fit-cover border rounded"
-          src={img}
-          alt="DijanaVN Logo"
-          style={{ height: "4.8vw", margin: "5px" }}
-        />
+        <Link to={"/"}>
+          <img
+            className="bd-placeholder-img object-fit-cover border rounded"
+            src={img}
+            alt="DijanaVN Logo"
+            style={{ height: "4.8vw", margin: "5px" }}
+          />
+        </Link>
       </div>
       <p className="mb-0 right-reserved text-wrap right-reserved">
         &copy; 2023 DijanaVN. All Rights Reserved.

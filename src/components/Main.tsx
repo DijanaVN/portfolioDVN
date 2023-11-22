@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import img2 from "../assets/images/48c7d82e-53f5-4c24-bfb8-fdcbbfb14c50.webp";
 import { TypingAnimation } from "./TypingMotion";
 import { GrLinkedin } from "react-icons/gr";
@@ -6,21 +6,8 @@ import { BsGithub } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 
 const Main = () => {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  useEffect(() => {
-    const handleResize = () => {
-      setScreenWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
   const mainStyle = {
     background: `url(${img2}) no-repeat center center/cover`,
-    height: screenWidth <= 500 ? "100vw" : "70vw",
     display: "flex",
     alignItems: "center",
     opacity: 1,
@@ -30,6 +17,7 @@ const Main = () => {
     background: "black",
     padding: "1vw",
     borderRadius: "10px",
+    height: "100%",
   };
 
   const iconStyle = {
@@ -39,7 +27,7 @@ const Main = () => {
 
   return (
     <div className="container-fluid" style={frameStyle}>
-      <div className="container-fluid " style={mainStyle}>
+      <div className="container-fluid img-height " style={mainStyle}>
         <div className="text-shadow-main ">
           <div
             data-aos="zoom-in-right"

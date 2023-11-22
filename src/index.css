@@ -18,7 +18,7 @@
   text-align: center;
 }
 .main-text {
-  font-size: 2.8vw;
+  font-size: 3.3vw;
   background-color: rgba(0, 0, 0, 0.1);
   padding-left: 20px;
   box-shadow: 0.3em 0.3em 1em 1em rgba(0, 0, 0, 0.1);
@@ -45,12 +45,32 @@
   box-shadow: "0.3em 0.3em 1em 1em rgba(0, 0, 0, 0.1)";
 }
 
+.navbar-toggler-icon {
+  font-size: 1rem;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.contact-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
 @media screen and (max-width: 768px) {
   .logo-sign {
     height: 3rem;
   }
   .right-reserved {
     font-size: 0.6rem;
+  }
+  .img-height {
+    height: 70vw;
   }
 }
 
@@ -62,14 +82,32 @@
   .logo-sign {
     height: 4rem;
   }
-}
 
-@media screen and (min-width: 768px) {
   .text-font-size-nav {
     font-size: 2rem;
   }
+  .img-height {
+    height: 70vw;
+  }
 }
 
-.navbar-toggler-icon {
-  font-size: 1rem;
+@media screen and (min-width: 1000px) {
+  .img-height {
+    height: 40vw;
+  }
+  .main-text {
+    font-size: 2vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    box-shadow: 0.3em 0.3em 1em 1em rgba(0, 0, 0, 0.1);
+  }
+  .text-font-size-des {
+    font-size: 1.5rem;
+  }
+  .text-font-size-btn {
+    font-size: 2rem;
+  }
+  .text-font-size {
+    font-size: 3rem;
+  }
 }

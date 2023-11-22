@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 interface ProjectProp {
   title: string;
@@ -38,12 +39,14 @@ const ProjectCard = ({
           <a
             href={siteLink}
             className={`btn btn-${color} text-font-size-btn-project fw-semibold`}
+            rel="noopener"
             target="_blank"
           >
             {`${title.split("-")[0]}-Site`}
           </a>
           <a
             href={githubLink}
+            rel="noopener"
             className={`btn btn-${color} text-font-size-btn-project fw-semibold`}
             target="_blank"
           >

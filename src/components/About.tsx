@@ -16,7 +16,7 @@ const About = () => {
   const cardData = [
     {
       title: "About Me:",
-      text: "Hello! I'm Dijana, a passionate React developer with a strong commitment to web technologies. I hold certificates in HTML, CSS, JavaScript, React, TypeScript, and GitHub, showcasing my dedication to learning and mastering the essentials of web development.",
+      text: "Thank you for taking the time to explore my portfolio. Your visit is greatly appreciated. Within the upcoming pages, you'll get a glimpse into my passion, work principles, projects,  career path, and education. Being a committed React developer, I'm dedicated to the world of web technologies. My journey includes certifications in HTML, CSS, JavaScript, React, TypeScript, and GitHub, showcasing my dedication to mastering the essentials of web development.",
       link: "/certificates",
       img: img1,
     },
@@ -35,10 +35,10 @@ const About = () => {
     {
       title: "What I Offer:",
       list: [
-        "💡 Understanding of HTML, CSS, JavaScript, React, and TypeScript.",
+        "💡 Good understanding of HTML, CSS, JavaScript, React, and TypeScript.",
         "🛠️ Understanding of version control systems like Git & GitHub.",
-        "🤝 Strong teamwork and collaboration skills honed through years of managing teams.",
-        "🌟 Eagerness to learn, adapt, and grow in the ever-evolving tech landscape.",
+        "🤝 Strong teamwork, ethics and collaboration skills honed through 10+ years of team management and leadership experience.",
+        "🌟 Readiness  to learn, adapt, and grow in the ever-evolving technologies and dynamic tech industry.",
       ],
       img: img4,
     },

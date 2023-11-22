@@ -39,7 +39,7 @@ const Certificates = () => {
 
   return (
     <>
-      <div className="container mt-5">
+      <div className="container ">
         <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2">
           {certificateImages.map((imgSrc, index) => (
             <CertificateGrid key={index} img={imgSrc} setup={setup} />

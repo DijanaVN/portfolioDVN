@@ -11,7 +11,7 @@ interface AboutProp {
 }
 
 const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
-  <div className="row p-3 p-sm-5  text-font-size">
+  <div className="row p-3 p-sm-5 ">
     <div
       className="card mb-3"
       data-aos={index % 2 === 0 ? "zoom-in-up" : "zoom-in-down"}
@@ -56,7 +56,7 @@ const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
               </ul>
             )}
             {link && (
-              <Link to={link} className="card-link text-font-size-btn fw-bold">
+              <a href={link} className="card-link text-font-size-btn fw-bold">
                 {title.includes("Let's Connect")
                   ? "Contact link"
                   : title.includes("About Me")
@@ -66,7 +66,7 @@ const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
                   : title.includes("Career Shift")
                   ? "My Projects"
                   : ""}
-              </Link>
+              </a>
             )}
           </div>
         </div>

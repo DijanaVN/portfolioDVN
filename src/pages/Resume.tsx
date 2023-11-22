@@ -10,9 +10,9 @@ const CV = () => {
 
   https: return (
     <>
-      <div className="mt-5 text-center">
+      <div className=" text-center">
         <div className="ratio ratio-1x1">
-          <iframe src={documentURL} width="100%" height="1200px" />
+          <iframe src={documentURL} width="100%" height="100vh" />
         </div>
       </div>
     </>

@@ -53,7 +53,7 @@ const HomePage = () => {
       >
         {inViewportContact && <TypingAnimation text={" CONTACT ME"} />}
       </div>
-      <div className="main-padding">
+      <div>
         <Contact />
       </div>
       <ScrollToTopButton />

@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-anchor-placement="bottom-bottom"
+          data-aos-anchor-placement="top-bottom"
           data-aos-duration="3000"
           style={iconStyle}
         >

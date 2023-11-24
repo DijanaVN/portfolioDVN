@@ -11,7 +11,7 @@ const Projects = () => {
       img: img,
       description:
         "This project was crafted as part of Mosh Hamedani's React + Typescript courses. It represents the culmination of my learning journey, covering beginner to intermediate topics in React. Through this course, I gained a deep understanding of React and Typescript.",
-      siteLink: "https://game-egeyzvvti-dijanavn.vercel.app/",
+      siteLink: "https://game-hub-alpha-nine.vercel.app/",
       githubLink: "https://github.com/DijanaVN/game-hub",
       color: "danger",
     },
@@ -29,7 +29,7 @@ const Projects = () => {
       img: img2,
       description:
         "After completing the React courses, I started my own project where I implemented the knowledge and skills I learned. This project was developed using React, Typescript, and Vite, and deployed on Vercel. I integrated the Edamam Recipe API to enhance its functionality.",
-      siteLink: "https://delishes-recipes-page-50ho7xkub-dijanavn.vercel.app/",
+      siteLink: "https://delishes-recipes-page.vercel.app/",
       githubLink: "https://github.com/DijanaVN/delishes-recipes-page",
       color: "success",
     },

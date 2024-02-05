@@ -61,9 +61,11 @@ const AboutCard = ({ title, text, list, link, img, index }: AboutProp) => (
                   ? "Contact link"
                   : title.includes("About Me")
                   ? "Certificates"
-                  : title.includes("Professional Transition")
+                  : title.includes("Strategic Career Evolution")
                   ? "My Resume"
-                  : title.includes("Career Shift")
+                  : title.includes(
+                      "Skills Expansion: Journey into Web Development with React"
+                    )
                   ? "My Projects"
                   : ""}
               </a>

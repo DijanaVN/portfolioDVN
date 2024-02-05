@@ -16,27 +16,27 @@ const About = () => {
   const cardData = [
     {
       title: "About Me:",
-      text: "Thank you for taking the time to explore my portfolio. Your visit is greatly appreciated. Within the upcoming pages, you'll get a glimpse into my passion, work principles, projects,  career path, and education. Being a committed React developer, I'm dedicated to the world of web technologies. My journey includes certifications in HTML, CSS, JavaScript, React, TypeScript, and GitHub, showcasing my dedication to mastering the essentials of web development.",
+      text: "Thank you for taking the time to explore my portfolio. Your visit is greatly appreciated. Within the upcoming pages, you'll get a glimpse into my passion, work principles, projects,  career path, and education. ",
       link: "/certificates",
       img: img1,
     },
     {
-      title: "Professional Transition:",
-      text: "With over a decade of experience as a dedicated store manager, I bring a proven track record in operations management, team leadership, and delivering exceptional customer service. My skills in problem-solving, teamwork, and thriving under pressure, coupled with a keen attention to detail, have consistently led to surpassing goals and targets.",
+      title: "Strategic Career Evolution:",
+      text: "With over a decade of experience as a dedicated store manager, I bring a proven track record in operations management, team leadership, and delivering exceptional customer service. My skills in problem-solving, teamwork, and thriving under pressure, coupled with a keen attention to detail, have consistently led to surpassing goals and targets. In addition to my extensive managerial background, I have recently enhanced my skill portfolio by completing courses in Scrum Master, Project Manager, and React for front-end development. This expansion of expertise reflects my commitment to staying current with industry trends and evolving my capabilities in response to the dynamic demands of the professional landscape. I am poised to leverage this diversified skill set to contribute effectively in roles that require a strategic blend of leadership, project management, and technical proficiency.",
       link: "/cv",
       img: img2,
     },
     {
-      title: "Career Shift:",
-      text: "Driven by my enthusiasm for technology and problem-solving, I decided to embark on a new journey in the world of web development. I am deeply passionate about creating seamless and user-friendly web applications. My transition to a React developer reflects my commitment to continuous learning and my eagerness to contribute to innovative projects in the field.",
+      title: "Skills Expansion: Journey into Web Development with React:",
+      text: "Driven by my enthusiasm for technology and problem-solving, I decided to embark on a new journey in the world of web development.  Throughout my learning journey, I've successfully completed and implemented several projects. I invite you to explore these projects on my dedicated project page to witness firsthand the practical application of my skills and knowledge in React development.",
       link: "/projects",
       img: img3,
     },
     {
       title: "What I Offer:",
       list: [
-        "💡 Good understanding of HTML, CSS, JavaScript, React, and TypeScript.",
-        "🛠️ Understanding of version control systems like Git & GitHub.",
+        "💡 Understanding of HTML, CSS, JavaScript, React, and TypeScript, Git & GitHub.",
+        "🛠️ Knowledge of Scrum methodology for effective project coordination.",
         "🤝 Strong teamwork, ethics and collaboration skills honed through 10+ years of team management and leadership experience.",
         "🌟 Readiness  to learn, adapt, and grow in the ever-evolving technologies and dynamic tech industry.",
       ],

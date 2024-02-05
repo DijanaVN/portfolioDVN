@@ -68,7 +68,7 @@ const Main = () => {
         <div className="col-6 text-light fonts ms-md-5 lh-lg  text-wrap main-text">
           <TypingAnimation
             text={
-              " Hello there! My name is Dijana, and I am an enthusiastic React JS developer."
+              " Hello there! I'm Dijana, my unique blend of skills positions me as a versatile candidate for roles such as Project Manager, Scrum Master, or Junior React Developer."
             }
           ></TypingAnimation>
         </div>

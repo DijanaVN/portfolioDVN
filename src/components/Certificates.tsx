@@ -12,6 +12,10 @@ import img10 from "../assets/images/54e8b293-246c-4096-b9e5-00b8ad82b986.webp";
 import img11 from "../assets/images/4cb91d04-4865-4190-8f90-576d3636a0b0.webp";
 import img12 from "../assets/images/6358942a-6ce8-471e-b0c0-c504f6eb2b70.webp";
 import CertificateGrid from "./CertificateGrid";
+import img13 from "../assets/images/Microsoft-365.webp";
+import img14 from "../assets/images/Excel-pivot-table.webp";
+import img15 from "../assets/images/Scrum-the-basics.webp";
+import img16 from "../assets/images/Scrum-Advanced.webp";
 
 const Certificates = () => {
   useEffect(() => {
@@ -23,6 +27,10 @@ const Certificates = () => {
   };
 
   const certificateImages = [
+    img13,
+    img14,
+    img15,
+    img16,
     img1,
     img2,
     img3,

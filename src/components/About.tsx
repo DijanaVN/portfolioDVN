@@ -22,7 +22,7 @@ const About = () => {
     },
     {
       title: "Strategic Career Evolution:",
-      text: "With over a decade of experience as a dedicated store manager, I bring a proven track record in operations management, team leadership, and delivering exceptional customer service. My skills in problem-solving, teamwork, and thriving under pressure, coupled with a keen attention to detail, have consistently led to surpassing goals and targets. In addition to my extensive managerial background, I have recently enhanced my skill portfolio by completing courses in Scrum Master, Project Manager, and React for front-end development. This expansion of expertise reflects my commitment to staying current with industry trends and evolving my capabilities in response to the dynamic demands of the professional landscape. I am poised to leverage this diversified skill set to contribute effectively in roles that require a strategic blend of leadership, project management, and technical proficiency.",
+      text: "With over a decade as a successful store manager, I excel in operations, team leadership, and customer service. Skilled in problem-solving and thriving under pressure, I consistently surpass goals. Recently, I expanded my skills with courses in Scrum Master, Project Manager, and React, reflecting my commitment to staying current with industry trends. I am poised to leverage this diversified skill set to contribute effectively in roles requiring a strategic blend of leadership, project management, and technical proficiency.",
       link: "/cv",
       img: img2,
     },

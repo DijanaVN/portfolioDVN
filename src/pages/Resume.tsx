@@ -6,7 +6,7 @@ const CV = () => {
   }, []);
 
   const documentURL =
-    "https://drive.google.com/file/d/12JDDhOR3JUBhjrKtFaEyqn0eam0IS7di/preview";
+    "https://drive.google.com/file/d/1ti9R58ECNeeen9G-QF22-Gu961k54sr_/preview";
 
   return (
     <>

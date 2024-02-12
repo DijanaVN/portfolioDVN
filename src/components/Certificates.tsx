@@ -16,6 +16,8 @@ import img13 from "../assets/images/Microsoft-365.webp";
 import img14 from "../assets/images/Excel-pivot-table.webp";
 import img15 from "../assets/images/Scrum-the-basics.webp";
 import img16 from "../assets/images/Scrum-Advanced.webp";
+import img17 from "../assets/images/CertificateOfCompletion_Learning Jira Cloud Edition.webp";
+import img18 from "../assets/images/CertificateOfCompletion_Learning Jira Software.webp";
 
 const Certificates = () => {
   useEffect(() => {
@@ -27,6 +29,8 @@ const Certificates = () => {
   };
 
   const certificateImages = [
+    img17,
+    img18,
     img13,
     img14,
     img15,

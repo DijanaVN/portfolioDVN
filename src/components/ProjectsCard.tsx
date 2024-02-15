@@ -21,20 +21,18 @@ const ProjectCard = ({
     <div
       data-aos="zoom-in"
       data-aos-duration="1500"
-      className={`card h-100 text-bg-light p-2 text-black`}
+      className={`card h-100 text-bg-light p-2 text-black `}
     >
       <div className="p-2 h-100">
         <a href={siteLink} target="_blank" rel="noopener noreferrer">
-          <img
-            src={img}
-            className="card-img-top object-fit-cover"
-            alt={`image of ${title}`}
-          />
+          <img src={img} className="card-img-top" alt={`image of ${title}`} />
         </a>
       </div>
-      <div className="card-body d-flex flex-column justify-content-between">
-        <h5 className="card-title text-font-size fw-bold pb-4">{title}</h5>
-        <p className="card-text  text-font-size-des pb-4">{description}</p>
+      <div className="card-body d-flex flex-column justify-content-between ">
+        <div className="d-flex flex-column justify-content-between">
+          <h5 className="card-title text-font-size fw-bold pb-4">{title}</h5>
+          <p className="card-text  text-font-size-des pb-4">{description}</p>
+        </div>
         <div className="d-flex justify-content-between ps-xl-5 pe-xl-5">
           <a
             href={siteLink}

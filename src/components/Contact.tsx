@@ -3,6 +3,7 @@ import { TypingAnimation } from "./TypingMotion";
 import { PiPhoneCallFill } from "react-icons/pi";
 import { FaAddressCard } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { MdEmail } from "react-icons/md";
 import { BsFillPersonFill } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
 import ThankYouModal from "./ThankYouModal";
@@ -139,14 +140,16 @@ const Contact = () => {
             <div className="contact-text">+389 71 994 724</div>
           </div>{" "}
           <div className="d-flex align-items-center mb-3 contact-item">
-            <IoMdMail
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="2000"
-              color="pink"
-              className="me-2"
-            />
+            {" "}
             <div className="contact-text">
+              <MdEmail
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="2000"
+                color="pink"
+                className="me-2"
+              />
+
               <a target="_blank" href="mailto:veljanovskadijana@yahoo.com">
                 veljanovskadijana@yahoo.com
               </a>
